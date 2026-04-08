@@ -25,9 +25,9 @@ export function ParisSection() {
           transition={{ duration: 0.8, ease: "easeOut" }}
           className="mb-16 relative z-20"
         >
-          <span className="text-gold font-sans tracking-[0.3em] uppercase text-sm md:text-base mb-4 font-semibold block">Architektura</span>
+          <span className="text-gold font-sans tracking-[0.3em] uppercase text-sm md:text-base mb-4 font-semibold block">Paryż – miasto jako organizm</span>
           <h2 className="text-5xl md:text-7xl font-serif text-gold mb-6 tracking-tight drop-shadow-[0_10px_24px_rgba(0,0,0,0.8)]">
-            Logiczny organizm<br/><span className="italic">kontra „leżąca drabina”</span>
+            Logika struktury:<br/><span className="italic">Wielka Gąsienica</span>
           </h2>
           <div className="w-20 h-[2px] bg-gradient-to-r from-gold/80 to-burgundy/60" />
         </motion.div>
@@ -44,15 +44,10 @@ export function ParisSection() {
             className="lg:col-span-5 relative z-20 pl-8 lg:pl-12 order-2 lg:order-1 before:absolute before:left-0 before:top-0 before:bottom-0 before:w-[3px] before:bg-gradient-to-b before:from-gold/60 before:to-burgundy/40"
           >
             <p className="text-xl md:text-2xl text-white font-serif drop-cap leading-[1.8] mb-8">
-              Paryż to miasto z planem. Mimo wieków historii, stolica Francji tworzy logiczną całość, której spójną <QuoteTooltip phrase="anatomię i fizjologię" quote="[...] Paryż, budowany przez kilkanaście wieków, przez miliony ludzi, nie wiedzących o sobie i nie myślących o żadnym planie, ma jednakże plan, tworzy całość, nawet bardzo logiczną." /> Wokulski obserwował z prawdziwym zdumieniem i uznaniem.
+              Paryż nie jest zbiorem budynków, lecz sprawnie funkcjonującym, potężnym organizmem. Jego <QuoteTooltip phrase="anatomię opiera się" quote="[...] Paryż, budowany przez kilkanaście wieków, przez miliony ludzi, nie wiedzących o sobie i nie myślących o żadnym planie, ma jednakże plan, tworzy całość, nawet bardzo logiczną." /> na tzw. „osi krystalizacji” – głównej linii komunikacyjnej biegnącej od placu Bastylii do Łuku Gwiazdy. Z lotu ptaka układ ten przypomina kształt olbrzymiej gąsienicy.
             </p>
-
-            <p className="text-xl md:text-2xl text-white/90 font-serif leading-[1.8] mb-8">
-              Każda ulica, latarnia czy kiosk ma swoje miejsce i funkcję. Budynki są tu wznoszone z rozmachem, który zdaje się nie kosztować mieszkańców wysiłku – siła ludzka pracuje tu „jakby dla rozrywki”, tworząc monumentalne gmachy pełne ozdób.
-            </p>
-
             <p className="text-xl md:text-2xl text-white/90 font-serif leading-[1.8]">
-              W tej uporządkowanej strukturze bohater dostrzegł kształt olbrzymiej gąsienicy. Jej tułów stanowiła tzw. „oś krystalizacji” – wielka linia komunikacyjna biegnąca od placu Bastylii do Łuku Gwiazdy, obejmująca m.in. ulicę Rivoli i Pola Elizejskie. To porównanie podkreślało organiczny charakter metropolii, która mimo ogromu i ciągłego ruchu, funkcjonowała jak spójny, żywy mechanizm, posiadający własny kręgosłup, głowę i serce.
+              To miasto posiada fizjologię: ruch ludzki i transport odbywają się tu bez zatorów, a monumentalne gmachy powstają jako naturalny efekt systemowej pracy, która – dzięki świetnej organizacji – wydaje się niemal pozbawiona wysiłku.
             </p>
           </motion.div>
 

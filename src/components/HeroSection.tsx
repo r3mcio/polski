@@ -23,8 +23,8 @@ export function HeroSection() {
           animate={{ opacity: 1, scale: 1, y: 0 }}
           transition={{ duration: 1.2, ease: [0.16, 1, 0.3, 1] }}
         >
-          <h1 className="text-5xl md:text-7xl lg:text-[7rem] font-serif text-parchment leading-[1.1] tracking-tight drop-shadow-[0_10px_24px_rgba(0,0,0,0.8)]">
-            Dwie stolice,<br className="hidden md:block" /> dwa światy
+          <h1 className="text-5xl md:text-6xl lg:text-[6.5rem] font-serif text-parchment leading-[1.1] tracking-tight drop-shadow-[0_10px_24px_rgba(0,0,0,0.8)] mb-4">
+            Warszawa vs Paryż:<br className="hidden md:block" /> Portret dwóch skrajnych stolic
           </h1>
         </motion.div>
 
@@ -35,7 +35,7 @@ export function HeroSection() {
         >
           <div className="w-24 h-[2px] bg-gold mx-auto mb-8" />
           <p className="text-xl md:text-3xl text-parchment/90 font-serif italic max-w-4xl mx-auto leading-relaxed">
-            Warszawa i Paryż – anatomia postępu i stagnacji
+            Analiza porównawcza systemów urbanistycznych i społecznych na podstawie obserwacji Stanisława Wokulskiego.
           </p>
         </motion.div>
       </div>

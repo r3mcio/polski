@@ -1,7 +1,7 @@
 "use client";
 
 import { motion } from "framer-motion";
-import { QuoteTooltip } from "./QuoteTooltip";
+
 
 export function PowisleSection() {
   return (
@@ -31,55 +31,34 @@ export function PowisleSection() {
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true, margin: "-150px" }}
           transition={{ duration: 0.8, ease: [0.43, 0.13, 0.23, 0.96] }}
-          className="mb-20"
+          className="mb-16 text-center"
         >
-          <h2 className="text-5xl md:text-7xl font-serif text-gold leading-tight mb-8 tracking-tighter drop-shadow-[0_10px_24px_rgba(0,0,0,0.8)]">
-            Co nas dzieli od wielkiego świata?
+          <span className="text-stone-400 font-sans tracking-[0.3em] uppercase text-sm md:text-base mb-4 font-semibold block">Anatomia Zaniedbania</span>
+          <h2 className="text-5xl md:text-6xl font-serif text-gold leading-tight mb-8 tracking-tighter drop-shadow-[0_10px_24px_rgba(0,0,0,0.8)]">
+            Krytyczne wady<br />infrastruktury
           </h2>
-          <div className="w-16 h-[1px] bg-stone-500" />
+          <div className="w-16 h-[1px] bg-stone-500 mx-auto" />
         </motion.div>
 
-        <div className="grid md:grid-cols-12 gap-12 lg:gap-20 items-start">
+        <div className="max-w-4xl mx-auto">
           <motion.div 
-            initial={{ opacity: 0, x: -30 }}
-            whileInView={{ opacity: 1, x: 0 }}
+            initial={{ opacity: 0, y: 30 }}
+            whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true, margin: "-100px" }}
             transition={{ duration: 0.8, ease: [0.43, 0.13, 0.23, 0.96] }}
-            className="md:col-span-12 lg:col-span-7 space-y-12"
+            className="space-y-8 text-left bg-black/40 p-8 md:p-12 border border-white/5 backdrop-blur-sm"
           >
-            <p className="text-xl md:text-2xl leading-[1.8] font-serif text-white drop-cap">
-              Paryż nie jest oczywiście rajem bez wad. Wokulski zauważa tam przytłaczający nadmiar bodźców i bezwzględny materializm – tam nawet sztuka musi na siebie zarobić.
+            <p className="text-xl md:text-2xl leading-[1.6] font-serif text-stone-300">
+              <strong className="text-gold">Układ komunikacyjny:</strong> Powiśle to „leżąca drabina” – sieć ślepych i ciasnych uliczek, które uniemożliwiają rozwój i ucieczkę z nędzy.
             </p>
             
-            <p className="text-xl md:text-2xl leading-[1.8] font-serif text-white/90 relative">
-              Jednak to Paryż oferuje wolność i anonimowość, pozwalając człowiekowi być „kroplą w oceanie”, a nie obiektem plotek i nagonki.
+            <p className="text-xl md:text-2xl leading-[1.6] font-serif text-stone-300">
+              <strong className="text-gold">Katastrofa sanitarna:</strong> Bezpośrednie sąsiedztwo głównego wysypiska śmieci i nieczystości ze zbiornikami wody pitnej.
             </p>
-          </motion.div>
 
-          <motion.div
-            initial={{ opacity: 0, scale: 0.95 }}
-            whileInView={{ opacity: 1, scale: 1 }}
-            viewport={{ once: true, margin: "-100px" }}
-            transition={{ duration: 0.8, ease: [0.43, 0.13, 0.23, 0.96], delay: 0.2 }}
-            className="md:col-span-12 lg:col-span-5 relative mt-6 lg:mt-20"
-          >
-            <div className="bg-[#090b13]/80 border-t border-l border-white/5 p-8 md:p-12 backdrop-blur-xl shadow-2xl relative transform lg:rotate-2">
-              <div className="absolute top-0 right-0 w-16 h-16 border-t border-r border-stone-600/30" />
-              <div className="absolute bottom-0 left-0 w-16 h-16 border-b border-l border-stone-600/30" />
-              <p className="text-xl font-serif leading-[1.9] text-stone-300">
-                Powiśle było w oczach Wokulskiego nie tylko „chorym, dzikim kątem”, ale też ponurym dowodem porażki całego systemu społecznego – istny <QuoteTooltip phrase="symbol upadku higieny i zdrowego rozsądku" quote="Wokulski doszedł do brzegu Wisły i zdumiał się. Na kilkumorgowej przestrzeni wznosił się tu pagórek najobrzydliwszych śmieci [...] a o kilkadziesiąt kroków dalej leżały zbiorniki wody, którą piła Warszawa." />
-              </p>
-            </div>
-            
-            <motion.p 
-              initial={{ opacity: 0, y: 20 }}
-              whileInView={{ opacity: 1, y: 0 }}
-              viewport={{ once: true, margin: "-50px" }}
-              transition={{ duration: 0.8, ease: [0.43, 0.13, 0.23, 0.96], delay: 0.4 }}
-              className="mt-12 text-lg md:text-xl leading-[1.8] font-serif text-white/80 pl-6 border-l border-stone-700/50"
-            >
-              To dzielnica bez perspektyw, przypominająca drabinę leżącą na ziemi, po której nikt nie jest w stanie się wspiąć.
-            </motion.p>
+            <p className="text-xl md:text-2xl leading-[1.6] font-serif text-stone-300">
+              <strong className="text-gold">Zapaść budowlana:</strong> Brak systemowych rozwiązań higienicznych prowadzi do fizycznego rozkładu dzielnicy.
+            </p>
           </motion.div>
         </div>
       </div>

@@ -5,16 +5,16 @@ import { motion } from "framer-motion";
 export function PlanSection() {
   const planItems = [
     {
-      title: "Radykalnej przebudowy dzielnic nędzy",
-      description: "Zamiany Powiśla w użyteczne bulwary."
+      title: "Sprzątnięcie Powiśla i czysta woda",
+      description: "Trzeba wyburzyć rudery i zbudować tam porządne bulwary. Najważniejsze to w końcu oddzielić ścieki od wody do picia. Miasto nie może zanieczyszczać własnego źródła wody, jeśli ludzie mają tu normalnie żyć i nie chorować."
     },
     {
-      title: "Inwestycji w infrastrukturę",
-      description: "Budowy kanałów i doprowadzenia czystej wody źródlanej, co uratowałoby tysiące istnień."
+      title: "Nowe, szerokie drogi",
+      description: "Trzeba przebić przez miasto szerokie ulice, tak jak zrobili to w Paryżu. Musimy wyprostować te wszystkie ślepe zaułki „leżącej drabiny”, żeby transport i ludzie mogli się sprawnie poruszać, a nie stać w miejscu."
     },
     {
-      title: "Zmiany mentalności",
-      description: "Docenienia pracy i nauki kosztem rodowych tytułów."
+      title: "Inwestycje zamiast balowania",
+      description: "Koniec z marnowaniem pieniędzy na hazard, bale i licytacje starych kamienic. Kapitał musi iść w handel, fabryki i naukę. Albo bogaci zaczną inwestować w rozwój, albo Warszawa na zawsze zostanie miastem bankrutów."
     }
   ];
 
@@ -52,14 +52,14 @@ export function PlanSection() {
           transition={{ duration: 0.8, ease: [0.43, 0.13, 0.23, 0.96] }}
           className="mb-24 text-center md:text-left"
         >
-          <span className="text-gold font-sans tracking-[0.3em] uppercase text-sm md:text-base mb-4 font-semibold block">Czego potrzebuje Warszawa?</span>
+          <span className="text-gold font-sans tracking-[0.3em] uppercase text-sm md:text-base mb-4 font-semibold block">Plan Naprawczy</span>
           <h2 className="text-5xl md:text-7xl font-serif text-gold mb-6 tracking-tight drop-shadow-[0_10px_24px_rgba(0,0,0,0.8)]">
-            Nie wystarczą <span className="opacity-90">kosmetyczne poprawki</span>
+            Inżynieria,<br /><span className="opacity-90 italic text-4xl md:text-6xl">nie kosmetyka</span>
           </h2>
           <div className="w-16 h-[2px] bg-gold mb-12 mx-auto md:mx-0" />
           
           <p className="text-xl md:text-2xl text-white/90 font-serif leading-[1.8] mt-8 max-w-4xl drop-cap text-left">
-            Aby polska stolica mogła stanąć w jednym rzędzie z Paryżem, nie wystarczą kosmetyczne poprawki. Potrzebujemy:
+            Aby Warszawa mogła funkcjonować sprawnie jak zdrowy, pełen siły organizm, niezbędne są bezwarunkowo radykalne kroki techniczne:
           </p>
         </motion.div>
 
